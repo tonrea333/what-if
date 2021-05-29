@@ -16,7 +16,7 @@ if (remainNum == 1){
     const remTwo= (groupThree-(groupThree - 1));
     const gthreeMone =(groupThree-1);
     const twoThre = ( (2*(remTwo + 1))/2);
-    console.log ("There are", Math.round(gthreeMone), "and", twoThre, "groups of two.")
+    console.log ("There are", Math.round(gthreeMone), "groups of three and", twoThre, "groups of two.")
 } else if (remainNum == 0) {
     console.log ("There are",groupThree, "groups of three and", "zero groups of two!")
 }
